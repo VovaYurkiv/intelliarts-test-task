@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(216, 216, 216);
+}
+
+code {
+  font-family: 'Montserrat', sans-serif;
+}

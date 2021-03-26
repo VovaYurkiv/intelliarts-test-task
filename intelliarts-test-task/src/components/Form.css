@@ -1,0 +1,13 @@
+.form {
+  text-align: center;
+}
+
+.input-form {
+  outline: none;
+  padding: 15px 5px;
+  width: 40%;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}

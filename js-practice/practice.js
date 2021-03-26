@@ -157,14 +157,13 @@
 
 
 
-// let array = []
+let array = []
 
-// const makeArr = () => {
-//     for (let i = 0; i <= 10; i++) {
-//         array.push(i)
-//     }
-// }
-// makeArr()
+const makeArr = () => {
+        array.push('hello')
+}
+makeArr()
+console.log(array)
 
 // const sumArr = () => {
 //     result = array.map(el => el * 3).filter(el => el % 5 === 0).reduce((a, b) => a + b)
@@ -217,27 +216,27 @@
 // console.log(coco('My name is Vova'))
 
 
-const users = [
-    {
-        id: 0,
-        name: 'Vova'
-    },
-    {
-        id: 1,
-        name: 'Olya'
-    }
-]
+// const users = [
+//     {
+//         id: 0,
+//         name: 'Vova'
+//     },
+//     {
+//         id: 1,
+//         name: 'Olya'
+//     }
+// ]
 
-const posts = [
-    {
-        userId: 0,
-        body: 'Hello, how are you?'
-    },
-    {
-        userId: 1,
-        body: 'I am good, you?'
-    }
-]
+// const posts = [
+//     {
+//         userId: 0,
+//         body: 'Hello, how are you?'
+//     },
+//     {
+//         userId: 1,
+//         body: 'I am good, you?'
+//     }
+// ]
 
 
-console.log(users[posts[0].userId].id)
+// console.log(users[posts[0].userId].id)
