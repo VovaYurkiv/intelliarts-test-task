@@ -1,0 +1,25 @@
+.list,
+.total {
+  display: none;
+}
+
+.list-active,
+.total-active {
+  display: block;
+}
+
+.total-active {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.expenses-list {
+  text-align: center;
+  max-height: 450px;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
