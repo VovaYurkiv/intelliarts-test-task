@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeTask</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <section>
+        <ul 
+            id='elementsList'
+            class="elements-queue"
+        >
+        </ul>
+            <form 
+                id='myForm' 
+                class="form-queue" 
+                onsubmit="handleSubmit()"
+            >
+            <div class='bottom-queue'>
+                <input 
+                    type='text' 
+                    id='inputField' 
+                    class="input-queue"
+                />
+                <button  
+                    class="add-btn" 
+                    onclick="addQueueElement()"
+               >
+                    &#43;
+                </button>
+                <button 
+                    class="delete-btn" 
+                    onclick="deleteQueueElement()"
+                >
+                    &#8722;
+                </button>
+            </div>
+            </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
